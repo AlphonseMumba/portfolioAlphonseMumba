@@ -25,45 +25,41 @@
     <main class="mainContact">
         <section class="secContact1">
             <h3 id="titre3Contact">Contact</h3>
-            <div class="divcontact2">
-                <p class="pdivcontact">
-                    <strong>Télephone</strong><br>
-                    <a href="callto:+243842315918">+243842315918</a>
-                </p>
-            </div>
-            <div class="divcontact3">
-                <p class="pdivcontact">
+            <p class="pdivcontact">
+                <strong>Télephone</strong><br>
+                <a class="adivcontact" href="callto:+243842315918">+243842315918</a>
+            </p>
+            <p class="pdivcontact">
                     <strong>Email</strong><br>
-                    <a href="mailto:mumbalpha@gmail.com">info@mysite.com</a>
-                </p>
-            </div>
+                    <a class="adivcontact" href="mailto:mumbalpha@gmail.com">info@mysite.com</a>
+            </p>
         </section>
         <section class="secContact2">
             <form action="post" method="get">
-                <div class="divform1">
-                    <div>
+                <div class="divform">
+                    <div class="divforminfo">
                         <label for="firstname">First Name</label><br>
                         <input type="text" name="firstname" id="firstname" >
                     </div>
-                    <div>
+                    <div class="divforminfo">
                         <label for="lastname">Last Name</label><br>
-                        <input type="text" name="lastname" id="lastname" >
+                        <input type="text" name="lastname" id="lastname">
                     </div>
                 </div>
-                <div class="divform2">
-                    <div>
+                <div class="divform">
+                    <div class="divforminfo">
                         <label for="email">Email</label><br>
                         <input type="email" name="Email" id="email" >
                     </div>
-                    <div>
+                    <div class="divforminfo">
                         <label for="subject">Subject</label><br>
                         <input type="text" name="subject" id="subject">
                     </div>
                 </div>
-                <div class="divform3">
+                <div class="divform">
                     <div>
                         <label for="message">Message</label><br>
-                        <textarea name="message" id="message" cols="36" rows="8"></textarea>
+                        <textarea name="message" id="message" cols="25" rows="8"></textarea>
                     </div>
                     <input type="submit" id="inputsubmit">
                 </div>

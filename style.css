@@ -9,22 +9,10 @@ a{
 }
 header {
     display: flex;
+    justify-content: space-between;
   }
   
-  #h1Univers{
-    display: inline;
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    font-size: 1.2em;
-    color: #000;
-  }
-  #ulUnivers{
-    display: flex;
-    position: absolute;
-    top: 2%;
-    right: 8%;
-  }
+
   .liUnivers {
     list-style: none; 
     padding: 0; 
@@ -41,29 +29,20 @@ header {
   }
   .liUnivers {
     display: flex;
-    display: inline;
-    align-self: flex-start;
     margin-right: 10px; 
     font-size: 1em;
   }
 
   footer{
     width: 80%;
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 10%;
   }
-  .hrfooter{
-    margin-right: 10%;
-  }
+
   .footerInfo{
     display: flex;
     justify-content: space-between;
   }
 
-  .space{
-    padding-left: 0;
-    padding-right: 17%;
-  }
   .followInst, .followLink, .followTwit{
     color: #000;
     background-color: white;
@@ -71,25 +50,24 @@ header {
   }
 
 
-
                                 /* Style Index */
 
 
-  .mainIndex{
+  #mainIndex{
     display: flex;
-    position: absolute;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
-    margin-left: 15%;
-    width: 70%;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin: 10%;
+    width: 80%;
   }
   
-  .imageAlphonse{
-    height: 30em;
+  #imageAlphonse{
+    height: 20em;
     border-radius: 20em;
   }
-  .secIndex2{
+  #secIndex{
     display: block;
     align-items: center;
     width: 50%;
@@ -97,7 +75,7 @@ header {
     padding: 5%;
   }
 
-  h2{
+  #helloIndex{
     font-size: 2.2rem;
   }
 
@@ -124,61 +102,37 @@ header {
     background-color: rgb(6, 238, 238);
   }
 
-  #footerIndex{
-    display: block;
-    justify-content: center;
-    position: absolute;
-    right: 10%;
-    bottom: 0%;
-    width: 80%;
-    height: 10%;
-  }
-  
 
                                 /* Style Projets */
-
 
 
   .mainProjets{
     display: block;
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
   }
   .titreProjet{
     margin-top: 7%;
-    margin-left: 10%;
     font-size: 1.3rem;
   }
-
-  .sectProjets1{
+  .imgDr{
+    width: 50%;
+    height: 30%;
+  }
+  .sectProjets{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
   }
-  .divdescprojets1{
-    width: 40%;
-    height: 40%;
-    padding: 2%;
+  .divdescprojets{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
-  .divimgprojets1{
-    padding: 2%;
-  }
-  .sectProjets2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  .divdescprojets2{
-    width: 40%;
-    height: 40%;
-    padding: 2%;
-  }
-  .divimgprojets2{
-    padding: 2%;
-  }
-
 
 
                                   /*  Style Contact*/
@@ -186,61 +140,47 @@ header {
 
 .mainContact{
   display: flex;
+  justify-content: space-between;
   margin-top: 8%;
+  margin-left: 5%;
   width: 90%;
 }
-#titre3Contact{
-  margin-left: 10%;
-  font-size: 1.5rem;
-}
-
 .secContact1{
-  height: 30rem;
-  width: 20rem;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 25%;
-  margin-left: 15%;
+  width: 100%;
 }
-.divcontact1{
-  height: 7%;
-  align-items: center;
+#titre3Contact{
+  margin-left: 2.5%;
   font-size: 1.5rem;
-  margin: 10%;
 }
-.divcontact2, .divcontact3{
-  height: 15%;
-  margin: 10%;
+.pdivcontact{
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 10%;
+  margin-left: 2.5%;
+}
+.adivcontact{
+  margin: 2.5;
 }
 .secContact2{
-  height: 40rem;
-  margin-left: 23%;
-
+  margin-left: 10%;
 }
-.divform1, .divform2, .divform3{
+.divform{
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
   align-items: center;
-  height: 10rem;
-  width: 40rem;
-  margin-left: 20%;
+  justify-content: space-between;
 }
-.divform3{
-  margin-left: 17%;
+.divforminfo{
+  height: 5rem;
+  width: 12rem;
 }
-
-#firstname, #lastname, #email, #subject{
+#subject, #email, #lastname, #firstname{
   height: 3rem;
-  width: 15rem;
 }
 #inputsubmit{
-  background-color: darkorange;
-  height: 10rem;
-  width:10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: orange;
+  height: 7rem;
+  width: 7rem;
+  margin-right: 15%;
   border-radius: 50%; 
 }
 
@@ -251,7 +191,7 @@ header {
 #mainCV{
   display: block;
   margin-top: 9%;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 10%;
 }
 
