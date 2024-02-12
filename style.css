@@ -1,49 +1,46 @@
                                     /* Style A Appliquer partout */ 
 
-*{
+  *{
   font-family: 'Roboto', sans-serif;
 }
-a{
+  a{
   text-decoration: none;
   color: #000;
 }
-header {
+  .header {
     display: flex;
-    justify-content: space-between;
   }
-  
-
-  .liUnivers {
+  .header__title{
+    margin-top: 1.5%;
+    margin-left: 2%;
+  }
+  .nav {
+    display: flex;
+    font-size: 1em;
+    margin-top: 1.5%;
+    margin-left: 72%;
+  }
+  .nav__item {
     list-style: none; 
     padding: 0; 
   }
-  
-  .liUnivers li {
+  .nav__item {
     display: inline; 
   }
-  
-  .liUnivers li:not(:last-child):after {
+  .nav__item:not(:last-child):after {
     content: "|"; 
-    margin: 0 10px; 
+    margin: 0 8px; 
     color: #000; 
   }
-  .liUnivers {
-    display: flex;
-    margin-right: 10px; 
-    font-size: 1em;
-  }
-
-  footer{
+  .footer{
     width: 80%;
     margin-left: 10%;
   }
-
-  .footerInfo{
+  .footer__nav{
     display: flex;
     justify-content: space-between;
   }
-
-  .followInst, .followLink, .followTwit{
+  .footer__contact--icon{
     color: #000;
     background-color: white;
     margin: 5%;
@@ -53,130 +50,163 @@ header {
                                 /* Style Index */
 
 
-  #mainIndex{
+  .main--index{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 12.5%;
+    margin-bottom: 10%;
+    width: 75%;
+  }
+  .hero{
+    display: flex;
     justify-content: center;
-    margin-top: 7%;
-    margin-left: 10%;
-    margin: 10%;
+  }
+  .hero__image--profil{
+    height: 80%;
     width: 80%;
+    border-radius: 50%;
   }
-  
-  #imageAlphonse{
-    height: 20em;
-    border-radius: 20em;
-  }
-  #secIndex{
+  .about{
     display: block;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    padding: 5%;
+    width: 60%;
+    height: 80%;
   }
-
-  #helloIndex{
+  .about__title--index{
     font-size: 2.2rem;
   }
-
-  .containerIndex {
+  .about__list--index {
     display: flex;
   }
-  
-  .cercle {
+  .about__list--index{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+  }
+  .about__bouton {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
     border-radius: 20em; 
-    margin: 10px; 
   }
-  #cercle1{
+  .about__bouton--orange{
     background-color: rgb(234, 134, 13);
   }
-  #cercle2{
+  .about__bouton--red{
     background-color: rgb(175, 10, 10);
   }
-  #cercle3{
+  .about__bouton--aqua{
     background-color: rgb(6, 238, 238);
   }
+
+
+                              /* Style CV */
+
+
+.main--cv{
+  display: block;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.main__title, .section__experience, .hr__cv{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.container__space{
+  display: flex;
+  justify-content: space-between;
+}
+.experience__title{
+  font-size: 1.5rem;
+}
 
 
                                 /* Style Projets */
 
 
-  .mainProjets{
+  .main--projets{
     display: block;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 80%;
     margin-left: 10%;
   }
-  .titreProjet{
+  .main__title--projet{
     margin-top: 7%;
     font-size: 1.3rem;
   }
-  .imgDr{
-    width: 50%;
-    height: 30%;
+  .section__about{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
-  .sectProjets{
+  .section{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
   }
-  .divdescprojets{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+  .section__about--image{
+    width: 50%;
+    height: 30%;
   }
 
 
                                   /*  Style Contact*/
 
 
-.mainContact{
+.main--contact{
   display: flex;
   justify-content: space-between;
   margin-top: 8%;
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: blue;
 }
-.secContact1{
-  width: 100%;
+.contact{
+  width: 30%;
+  background-color: aqua;
 }
-#titre3Contact{
-  margin-left: 2.5%;
+.contact__title{
+  margin-left: 4%;
   font-size: 1.5rem;
 }
-.pdivcontact{
+.contact__container{
   align-items: center;
   font-size: 1.2rem;
   margin-top: 10%;
-  margin-left: 2.5%;
+  margin-left: 5%;
+  background-color: green;
 }
-.adivcontact{
-  margin: 2.5;
+.contact__us{
+  margin: 3%;
 }
-.secContact2{
-  margin-left: 10%;
+.form{
+  background-color: aqua;
 }
-.divform{
+.form__container{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.divforminfo{
+.container__name, .container__mail{
   height: 5rem;
   width: 12rem;
 }
-#subject, #email, #lastname, #firstname{
+.form__container--style{
   height: 3rem;
 }
-#inputsubmit{
+.inputsubmit{
   background-color: orange;
   height: 7rem;
   width: 7rem;
@@ -185,25 +215,3 @@ header {
 }
 
 
-                            /* Style CV */
-
-
-#mainCV{
-  display: block;
-  margin-top: 9%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-#titre1CV, .titre2CV, .hrcv{
-  margin-top: 2%;
-  margin-bottom: 3%;
-}
-
-.divtitre3CV{
-  display: flex;
-  justify-content: space-between;
-}
-.titre2CV{
-  font-size: 1.5rem;
-}

@@ -14,20 +14,23 @@
     <title>Projets</title>
 </head>
 <body>
-    <header>
-        <h1 id="h1Univers"><a href="index.html">Alphonse MUMBA</a></h1>
-        <ul class="liUnivers" id="ulUnivers">
-            <li class="liUnivers"><a href="CV.html">CV</a></li>
-            <li class="liUnivers"><a href="Projets.html">Projets</a></li>
-            <li class="liUnivers"><a href="Contact.html">Contact</a></li>
-        </ul>
+    <header class="header">
+        <h1 class="header__title"><a href="index.html">Alphonse MUMBA</a></h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="CV.html">CV</a></li>
+                <li class="nav__item"><a href="Projets.html">Projets</a></li>
+                <li class="nav__item"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="mainProjets">
-        <h1 class="titreProjet">Projets</h1>
-        <section class="sectProjets">
-            <div class="divdescprojets">
-                <h3>Dr Norman Borlaug</h3>
-                <p>La page web Dr Norman Borlaug est un projet qui consistait à créer notre première 
+    <main class="main--projets">
+        <h1 class="main__title--projet">Projets</h1>
+        <section class="section">
+            <div class="section__about">
+                <h3 class="section__about--title">Dr Norman Borlaug</h3>
+                <p>
+                    La page web Dr Norman Borlaug est un projet qui consistait à créer notre première 
                     page web avec HTML ET CSS 
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit facere corporis et. 
                     Voluptatibus quae quisquam ut repellat, numquam quam repudiandae atque provident non c
@@ -38,11 +41,11 @@
                     provident.
                 </p>
             </div>
-            <img src="images/DrIMG.jpg" alt=""class="imgDr">
+            <img src="images/DrIMG.jpg" alt=""class="section__about--image">
         </section>
-        <section class="sectProjets">
-            <div class="divdescprojets">
-                <h3>Projet 2</h3>
+        <section class="section">
+            <div class="section__about">
+                <h3 class="section__about--title">Projet 2</h3>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eos autem corrupti,
                      facere sed vitae labore adipisci laborum illum odio blanditiis excepturi 
@@ -52,30 +55,30 @@
                      nobis facere pariatur doloremque odio? Voluptatum, itaque distinctio!
                 </p>
             </div>
-            <img src="images/DrIMG.jpg" alt="" class="imgDr">
+            <img src="images/DrIMG.jpg" alt="" class="section__about--image">
         </section>
     </main>
-    <footer>
-        <hr class="hrfooter">
-        <div class="footerInfo">
-            <div class="space" id="space1">
+    <footer class="footer">
+        <hr class="footer__line">
+        <div class="footer__nav">
+            <div class="footer__contact">
                 <div><strong>Télephone</strong></div>
-                <p><a href="callto:+243842315918">+243842315918</a></p>
+                <p><a href="tel:+243842315918">+243842315918</a></p>
             </div>
-            <div class="space" id="space2">
+            <div class="footer__contact">
                 <div><strong>Email</strong></div>
                 <p><a href="mailto:mumbalpha@gmail.com">info@mysite.com</a></p>
             </div>
-            <div class="space" id="space3">
-                <div class="follow"><strong>Suivez-moi</strong><br>
+            <div class="footer__contact">
+                <div class="footer__contact"><strong>Suivez-moi</strong><br>
                     <p>
-                        <a class="followInst" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
-                        <a class="followLink" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
-                        <a class="followTwit" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
+                        <a class="footer__contact--icon" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
                     </p>
                 </div>
             </div>
-            <div class="space" id="space4">@2024 By Alphonse MUMBA</div>
+            <div class="footer__contact">@2024 By Alphonse MUMBA</div>
         </div>
     </footer>
 </body>

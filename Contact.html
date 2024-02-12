@@ -14,79 +14,81 @@
     <title>Contact</title>
 </head>
 <body>
-    <header>
-        <h1 id="h1Univers"><a href="index.html">Alphonse MUMBA</a></h1>
-        <ul class="liUnivers" id="ulUnivers">
-            <li class="liUnivers"><a href="CV.html">CV</a></li>
-            <li class="liUnivers"><a href="Projets.html">Projets</a></li>
-            <li class="liUnivers"><a href="Contact.html">Contact</a></li>
-        </ul>
-    </header>   
-    <main class="mainContact">
-        <section class="secContact1">
-            <h3 id="titre3Contact">Contact</h3>
-            <p class="pdivcontact">
+    <header class="header">
+        <h1 class="header__title"><a href="index.html">Alphonse MUMBA</a></h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="CV.html">CV</a></li>
+                <li class="nav__item"><a href="Projets.html">Projets</a></li>
+                <li class="nav__item"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main class="main--contact">
+        <section class="contact">
+            <h3 class="contact__title">Contact</h3>
+            <p class="contact__container">
                 <strong>Télephone</strong><br>
-                <a class="adivcontact" href="callto:+243842315918">+243842315918</a>
+                <a class="contact__us" href="callto:+243842315918">+243842315918</a>
             </p>
-            <p class="pdivcontact">
+            <p class="contact__container">
                     <strong>Email</strong><br>
-                    <a class="adivcontact" href="mailto:mumbalpha@gmail.com">info@mysite.com</a>
+                    <a class="contact__us" href="mailto:mumbalpha@gmail.com">info@mysite.com</a>
             </p>
         </section>
-        <section class="secContact2">
+        <section class="form">
             <form action="post" method="get">
-                <div class="divform">
-                    <div class="divforminfo">
+                <div class="form__container">
+                    <div class="container__name">
                         <label for="firstname">First Name</label><br>
-                        <input type="text" name="firstname" id="firstname" >
+                        <input type="text" name="firstname" id="firstname" class="form__container--style">
                     </div>
-                    <div class="divforminfo">
+                    <div class="container__name">
                         <label for="lastname">Last Name</label><br>
-                        <input type="text" name="lastname" id="lastname">
+                        <input type="text" name="lastname" id="lastname" class="form__container--style">
                     </div>
                 </div>
-                <div class="divform">
-                    <div class="divforminfo">
+                <div class="form__container">
+                    <div class="container__mail">
                         <label for="email">Email</label><br>
-                        <input type="email" name="Email" id="email" >
+                        <input type="email" name="Email" id="email" class="form__container--style">
                     </div>
-                    <div class="divforminfo">
+                    <div class="container__mail">
                         <label for="subject">Subject</label><br>
-                        <input type="text" name="subject" id="subject">
+                        <input type="text" name="subject" id="subject" class="form__container--style">
                     </div>
                 </div>
-                <div class="divform">
+                <div class="form__container">
                     <div>
                         <label for="message">Message</label><br>
                         <textarea name="message" id="message" cols="25" rows="8"></textarea>
                     </div>
-                    <input type="submit" id="inputsubmit">
+                    <input type="submit" class="inputsubmit">
                 </div>
             </form>
         </section>
     </main>
-    <footer>
-        <hr class="hrfooter">
-        <div class="footerInfo">
-            <div class="space" id="space1">
+    <footer class="footer">
+        <hr class="footer__line">
+        <div class="footer__nav">
+            <div class="footer__contact">
                 <div><strong>Télephone</strong></div>
-                <p><a href="callto:+243842315918">+243842315918</a></p>
+                <p><a href="tel:+243842315918">+243842315918</a></p>
             </div>
-            <div class="space" id="space2">
+            <div class="footer__contact">
                 <div><strong>Email</strong></div>
                 <p><a href="mailto:mumbalpha@gmail.com">info@mysite.com</a></p>
             </div>
-            <div class="space" id="space3">
-                <div class="follow"><strong>Suivez-moi</strong><br>
+            <div class="footer__contact">
+                <div class="footer__contact"><strong>Suivez-moi</strong><br>
                     <p>
-                        <a class="followInst" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
-                        <a class="followLink" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
-                        <a class="followTwit" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
+                        <a class="footer__contact--icon" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
                     </p>
                 </div>
             </div>
-            <div class="space" id="space4">@2024 By Alphonse MUMBA</div>
+            <div class="footer__contact">@2024 By Alphonse MUMBA</div>
         </div>
     </footer>
 </body>
