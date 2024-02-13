@@ -168,14 +168,12 @@
   justify-content: space-between;
   margin-top: 8%;
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 13%;
   width: 80%;
-  height: 80%;
-  background-color: blue;
+  height: 100%;
 }
 .contact{
   width: 30%;
-  background-color: aqua;
 }
 .contact__title{
   margin-left: 4%;
@@ -186,31 +184,30 @@
   font-size: 1.2rem;
   margin-top: 10%;
   margin-left: 5%;
-  background-color: green;
 }
 .contact__us{
   margin: 3%;
 }
 .form{
-  background-color: aqua;
+  width: 50%;
 }
 .form__container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.container__name, .container__mail{
-  height: 5rem;
-  width: 12rem;
+  margin-top: 5%;
 }
 .form__container--style{
-  height: 3rem;
+  height: 2.5rem;
+  width: 20rem;
 }
-.inputsubmit{
+.form__container--lastname, .form__container--subject {
+  margin-left: 20%;
+}
+.container__submit{
   background-color: orange;
   height: 7rem;
   width: 7rem;
-  margin-right: 15%;
+  margin-left: 15%;
   border-radius: 50%; 
 }
 
