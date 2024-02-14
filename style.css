@@ -23,8 +23,6 @@
   .nav__item {
     list-style: none; 
     padding: 0; 
-  }
-  .nav__item {
     display: inline; 
   }
   .nav__item:not(:last-child):after {
@@ -77,6 +75,9 @@
   .about__title--index{
     font-size: 2.2rem;
   }
+  .about__container{
+    line-height: 2rem;
+  }
   .about__list--index {
     display: flex;
   }
@@ -90,8 +91,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 20em; 
   }
   .about__bouton--orange{
@@ -142,17 +143,25 @@
     margin-top: 7%;
     font-size: 1.3rem;
   }
-  .section__about{
-    margin-top: 10%;
-    margin-bottom: 10%;
+  .section{
+    display: block;
+    width: 100%;
+  }
+  .section__about--title{
+    margin-top: 5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
-  .section{
+  .section__about{
     display: flex;
+    margin-bottom: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     align-items: center;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+  }
+  .section__about--container{
+    width: 40%;
   }
   .section__about--image{
     width: 50%;
@@ -203,6 +212,12 @@
 .form__container--lastname, .form__container--subject {
   margin-left: 20%;
 }
+.container__message{
+  width: 35%;
+}
+.form__message--style{
+  width: 95%;
+}
 .container__submit{
   background-color: orange;
   height: 7rem;
@@ -210,5 +225,113 @@
   margin-left: 15%;
   border-radius: 50%; 
 }
+
+
+/*------------------------------------ Responsive Mobile ---------------------------------------*/
+
+
+@media screen and (max-width: 428px) {
+  .header{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__title, .nav, .nav__list, .nav__item{
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+  }
+
+  /*--- Footer mobile ---*/
+  .footer{
+    margin-top: 20%;
+  }
+  .footer__nav{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer__contact{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  /*--- main index ---*/
+
+  .main--index{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .about{
+    margin-top: 10%;
+    text-align: center;
+    width: 90%;
+  }
+  .about__list--index{
+    width: 100%;
+  }
+
+
+  /*--- main cv ---*/
+  .main--projets{
+    margin-top: 12%;
+  }
+  .main__title--projet{
+    margin: 0;
+    text-align: center;
+  }
+  .section__about--title{
+    margin: 0%;
+    margin-top: 10%;
+  }
+  .section__about{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .section__about--container{
+    width: 100%;
+  }
+  .section__about--image{
+    width: 100%;
+    height: 80%;
+  }
+
+  /*--- main contact ---*/
+
+  .main--contact{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 90%;
+    display: block;
+  }
+  .contact{
+    text-align: center;
+    width: 100%;
+  }
+  .form{
+    width: 100%;
+  }
+  .form__container{
+    display: block;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .form__container--style, .form__container--message{
+    margin-bottom: 5%;
+  }
+  .form__container--lastname, .form__container--subject {
+    margin-left: 0%;
+  }
+  .container__message{
+    width: 100%;
+  }
+  .container__submit{
+    margin-left: 35%;
+  }
+}
+
 
 
