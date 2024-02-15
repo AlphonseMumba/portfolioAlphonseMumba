@@ -1,0 +1,209 @@
+                                    /* Style A Appliquer partout */ 
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .liUnivers {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .liUnivers li {
+    display: inline; 
+  }
+  
+  .liUnivers li:not(:last-child):after {
+    content: "|"; 
+    margin: 0 10px; 
+    color: #000; 
+  }
+  .liUnivers {
+    display: flex;
+    margin-right: 10px; 
+    font-size: 1em;
+  }
+
+  footer{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .footerInfo{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .followInst, .followLink, .followTwit{
+    color: #000;
+    background-color: white;
+    margin: 5%;
+  }
+
+
+                                /* Style Index */
+
+
+  #mainIndex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin: 10%;
+    width: 80%;
+  }
+  
+  #imageAlphonse{
+    height: 20em;
+    border-radius: 20em;
+  }
+  #secIndex{
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+  }
+
+  #helloIndex{
+    font-size: 2.2rem;
+  }
+
+  .containerIndex {
+    display: flex;
+  }
+  
+  .cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20em; 
+    margin: 10px; 
+  }
+  #cercle1{
+    background-color: rgb(234, 134, 13);
+  }
+  #cercle2{
+    background-color: rgb(175, 10, 10);
+  }
+  #cercle3{
+    background-color: rgb(6, 238, 238);
+  }
+
+
+                                /* Style Projets */
+
+
+  .mainProjets{
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .titreProjet{
+    margin-top: 7%;
+    font-size: 1.3rem;
+  }
+  .imgDr{
+    width: 50%;
+    height: 30%;
+  }
+  .sectProjets{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .divdescprojets{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+
+                                  /*  Style Contact*/
+
+
+.mainContact{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+  margin-left: 5%;
+  width: 90%;
+}
+.secContact1{
+  width: 100%;
+}
+#titre3Contact{
+  margin-left: 2.5%;
+  font-size: 1.5rem;
+}
+.pdivcontact{
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 10%;
+  margin-left: 2.5%;
+}
+.adivcontact{
+  margin: 2.5;
+}
+.secContact2{
+  margin-left: 10%;
+}
+.divform{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divforminfo{
+  height: 5rem;
+  width: 12rem;
+}
+#subject, #email, #lastname, #firstname{
+  height: 3rem;
+}
+#inputsubmit{
+  background-color: orange;
+  height: 7rem;
+  width: 7rem;
+  margin-right: 15%;
+  border-radius: 50%; 
+}
+
+
+                            /* Style CV */
+
+
+#mainCV{
+  display: block;
+  margin-top: 9%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#titre1CV, .titre2CV, .hrcv{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.divtitre3CV{
+  display: flex;
+  justify-content: space-between;
+}
+.titre2CV{
+  font-size: 1.5rem;
+}
