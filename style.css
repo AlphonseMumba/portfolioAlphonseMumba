@@ -115,10 +115,11 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
+  line-height: 2rem;
 }
 .main__title, .section__experience, .hr__cv{
-  margin-top: 2%;
-  margin-bottom: 3%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 .container__space{
   display: flex;
@@ -156,7 +157,6 @@
     display: flex;
     margin-bottom: 10%;
     margin-left: 2.5%;
-    margin-right: 2.5%;
     align-items: center;
     justify-content: space-between;
   }
@@ -229,6 +229,26 @@
 
 /*********************************** Responsive **********************************/
 @media screen and (max-width: 884px) {
+  
+
+}
+/*------------------------------------ Mobile -----------------------------------*/
+
+@media screen and (max-width: 428px) {
+
+  /*--- Header mobile ---*/
+
+  .header{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__title, .nav, .nav__list, .nav__item{
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+  }
+
   /*--- main index ---*/
 
   .main--index{
@@ -248,51 +268,19 @@
     width: 100%;
   }
 
-}
-/*------------------------------------ Mobile -----------------------------------*/
-
-@media screen and (max-width: 428px) {
-
-  /*--- Footer ---*/
-
-  .footer{
-    margin-top: 20%;
-  }
-  .footer__nav{
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  .footer__contact{
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-  }
-
-  /*--- Header tablette ---*/
-
-  .header{
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .header__title, .nav, .nav__list, .nav__item{
-    margin: 0;
-    margin-top: 3%;
-    padding: 0;
-  }
-
-  /*--- main cv ---*/
+  /*--- main cv mobile ---*/
 
   .main--cv{
     margin-top: 15%;
+    width: 95%;
+    margin-left: 2.5%;
+    
   }
   .container__space{
     flex-wrap: wrap;
-    text-align: center;
   }
 
-  /*--- main projet ---*/
+  /*--- main projet mobile ---*/
   .main--projets{
     margin-top: 12%;
   }
@@ -316,7 +304,7 @@
     height: 80%;
   }
 
-  /*--- main contact ---*/
+  /*--- main contact mobile ---*/
 
   .main--contact{
     margin-top: 15%;
@@ -343,11 +331,27 @@
     margin-left: 0%;
   }
   .container__message{
-    width: 100%;
+    width: 91%;
   }
   .container__submit{
     margin-left: 35%;
   }
+
+  /*--- Footer mobile ---*/
+
+  .footer{
+    margin-top: 20%;
+  }
+  .footer__nav{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer__contact{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
 }
 
 /*---------------------------------- Tablette -----------------------------------*/
@@ -366,20 +370,67 @@
   /*--- main index tablette ---*/
 
   .main--index{
-    width: 80%;
-    margin-left: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 10%;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .about{
+    margin-top: 7%;
+    text-align: center;
+    width: 90%;
   }
   .about__list--index{
     width: 50%;
     margin-left: 25%;
   }
 
+  /*--- main projet tablette ---*/
+
+  .main--projets{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .main__title--projet{
+    margin-bottom: 7%;
+    margin-left: 2.5%;
+  }
+  .section__about--title{
+    margin: 0%;
+    margin-left: 2.5%;
+  }
+
   /*--- main contact tablette---*/
 
   .main--contact{
-    margin-top: 15%;
+    display: block;
+    margin-top: 10%;
     margin-left: 5%;
     width: 90%;
-    display: block;
+  }
+  .contact__title, .contact__title, .contact__container, .contact__us{
+    margin: 0%;
+    margin-top: 7%;
+  }
+  .form{
+    width: 100%;
+  }
+  .form__container--style{
+    height: 2.5rem;
+    width: 21rem;
+  }
+  .form__container{
+    width: 100%;
+  }
+  .form__container--lastname, .form__container--subject {
+    margin-left: 27%;
+  }
+  .container__message{
+    width: 45%;
+  }
+  .container__submit{
+    margin-left: 11%;
   }
 }
