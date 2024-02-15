@@ -14,21 +14,23 @@
     <title>CV</title>
 </head>
 <body>
-    <header>
-        <h1 id="h1Univers"><a href="index.html">Alphonse MUMBA</a></h1>
-        <ul class="liUnivers" id="ulUnivers">
-            <li class="liUnivers"><a href="CV.html">CV</a></li>
-            <li class="liUnivers"><a href="Projets.html">Projets</a></li>
-            <li class="liUnivers"><a href="Contact.html">Contact</a></li>
-        </ul>
+    <header class="header">
+        <h1 class="header__title"><a href="index.html">Alphonse MUMBA</a></h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="CV.html">CV</a></li>
+                <li class="nav__item"><a href="Projets.html">Projets</a></li>
+                <li class="nav__item"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main id="mainCV">
-        <h1 id="titre1CV">Curriculum vitae</h1>
-        <section id="secCV1">
-            <h2 class="titre2CV">Expérience Professionnelle</h2>
-            <div class="divCVEP">
-                <div class="divtitre3CV">
-                    <h3 class="titre3CV">Développeur back-end PHP et NodeJS</h3>
+    <main class="main--cv">
+        <h1 class="main__title">Curriculum vitae</h1>
+        <section class="experience">
+            <h2 class="experience__title">Expérience Professionnelle</h2>
+            <div class="experience__container">
+                <div class="container__space">
+                    <h3 class="container__title">Développeur back-end PHP et NodeJS</h3>
                     <p>Février 2018 - Présent</p>
                 </div>
                 <p>Sopra Steria - Paris</p>
@@ -37,7 +39,7 @@
                     et d'architectes Devops, j'ai réalisé de nombreuses missions sur des projets clients dans 
                     le secteur de la défense :
                 </p>
-                <ul class="ulcv">
+                <ul class="container__list">
                     <li>Développement d'API PHP sur les frameworks Symfony et Laravel</li>
                     <li>Intégration de requêtes SQL et ElasticSearch avancées</li>
                     <li>Ajout de nouveaux endpoints sur une API Express.js avec des enjeux de cyber-sécurité</li>
@@ -46,9 +48,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="divCVEP">
-                <div class="divtitre3CV">
-                    <h3 class="titre3CV">Développeur back-end Python</h3>
+            <div class="experience__container">
+                <div class="container__space">
+                    <h3 class="container__title">Développeur back-end Python</h3>
                     <p>Juin 2018 - Janvier 2021</p>
                 </div>
                 <p>Thales - Grenoble</p>
@@ -57,7 +59,7 @@
                     évolutions ainsi que des correctifs sur un projet interne développé en Python, 
                     destiné à la maintenance d'appareils aéronefs :
                 </p>
-                <ul class="ulcv">
+                <ul class="container__list">
                     <li>Nouveaux endpoints sur une API GraphQL</li>
                     <li>Améliorations des performances de certaines fonctions de traitement en masse sur 
                         des documents NoSQL.
@@ -67,9 +69,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="divCVEP">
-                <div class="divtitre3CV">
-                    <h3 class="titre3CV">Développeur back-end Python</h3>
+            <div class="experience__container">
+                <div class="container__space">
+                    <h3 class="container__title">Développeur back-end Python</h3>
                     <p>Juin 2018 - Janvier 2021</p>
                 </div>
                 
@@ -79,7 +81,7 @@
                     évolutions ainsi que des correctifs sur un projet interne développé en Python, 
                     destiné à la maintenance d'appareils aéronefs :
                 </p>
-                <ul class="ulcv">
+                <ul class="container__list">
                     <li>Nouveaux endpoints sur une API GraphQL</li>
                     <li>Améliorations des performances de certaines 
                         fonctions de traitement en masse sur des documents NoSQL</li>
@@ -87,9 +89,9 @@
                         des tâches qui m'ont été affectées durant les sprints.</li>
                 </ul>
             </div>
-            <div class="divCVEP">
-                <div class="divtitre3CV">
-                    <h3 class="titre2CV">Développeur front-end ReactJS</h3>
+            <div class="experience__container">
+                <div class="container__space">
+                    <h3 class="container__title">Développeur front-end ReactJS</h3>
                     <p>Janvier 2018 - Mars 2018</p>
                 </div>
                 <p>Shifted - Paris</p>
@@ -98,27 +100,25 @@
                     JavaScript, j'ai occupé plusieurs missions d'améliorations sur l'interface 
                     utilisateur :
                 </p>
-                <ul>
+                <ul class="container__list">
                     <li>Mise en place de tests unitaires automatisés</li>
                     <li>Amélioration et optimisation de composants ReactJS en TypeScript</li>
                     <li>Mise à jour de librairies et correctifs de compatibilité</li>
                 </ul>
             </div>
         </section>
-        <hr class="hrcv">
-        <section id="secCV2">
-            <h2 class="titre2CV">Etudes</h2>
-            <div class="divCVET">
-                <div class="divtitre3CV">
-                    <h3 class="titre3CV">Diplôme d'ingénieursen informatique</h3>
-                    <p>2016 à 2019</p>
-                </div>
+        <hr class="hr__cv">
+        <section class="study">
+            <h2 class="study__title">Etudes</h2>
+            <div class="study__container">
+                <h3 class="container__title">Diplôme d'ingénieursen informatique</h3>
+                <p>2016 à 2019</p>
                 <p>EFREI - Paris</p>
                 <p></p>
                 <p>Programmation informatique, spécialisation Data Scientist</p>
                 <p></p>
                 <p>J'ai efffectué deux stages durant ma formation :</p>
-                <ul class="ulcv">
+                <ul class="container__list">
                     <li>Développement de micro-services en NodeJS dans le secteur bancaire</li>
                     <li>Refont du "Data Model" d'une application de suivi de livraison chez un 
                         spécialiste de logistique e-commerce
@@ -126,48 +126,47 @@
                 </ul>
             </div>
         </section>
-        <hr class="hrcv">
-        <section id="secCV3">
-            <h2 class="titre2CV">Compétences et expertise</h2>
-            <ul class="ulcv">
+        <hr class="hr__cv">
+        <section class="skills">
+            <h2 class="skills__title">Compétences et expertise</h2>
+            <ul class="container__list">
                 <li>Reverse engineering</li>
                 <li>Modélisation de Bases de données relationnelles</li>
                 <li>Rédaction de cahier de des charges Spécifacations foncctionnelles et techniques</li>
                 <li>Travail collaboratif Construction de projet collaboratif via Git (branches, correctif, review...)</li> 
             </ul>
         </section>
-        <hr class="hrcv">
-        <section id="secCV4">
-            <h2 class="titre2CV">Langues</h2>
-            <ul class="ulcv">
+        <hr class="hr__cv">
+        <section class="language">
+            <h2 class="language__title">Langues</h2>
+            <ul class="container__list">
                 <li><strong>Français</strong> Natif</li>
                 <li><strong>Anglais</strong> Niveau B2, Cambridge University</li>
                 <li><strong>Lingala</strong> Natif</li>
             </ul>
-
         </section>
     </main>
-    <footer>
-        <hr class="hrfooter">
-        <div class="footerInfo">
-            <div class="space" id="space1">
+    <footer class="footer">
+        <hr class="footer__line">
+        <div class="footer__nav">
+            <div class="footer__contact">
                 <div><strong>Télephone</strong></div>
-                <p><a href="callto:+243842315918">+243842315918</a></p>
+                <p><a href="tel:+243842315918">+243842315918</a></p>
             </div>
-            <div class="space" id="space2">
+            <div class="footer__contact">
                 <div><strong>Email</strong></div>
                 <p><a href="mailto:mumbalpha@gmail.com">info@mysite.com</a></p>
             </div>
-            <div class="space" id="space3">
-                <div class="follow"><strong>Suivez-moi</strong><br>
+            <div class="footer__contact">
+                <div class="footer__contact"><strong>Suivez-moi</strong><br>
                     <p>
-                        <a class="followInst" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
-                        <a class="followLink" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
-                        <a class="followTwit" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Instagram.com"><span class="fab fa-instagram"></span></a>
+                        <a class="footer__contact--icon" href="https://www.linkedin.com"><span class="fab fa-linkedin"></span></a>
+                        <a class="footer__contact--icon" href="https://www.Twitter.com" ><span class="fab fa-twitter"></span></a>
                     </p>
                 </div>
             </div>
-            <div class="space" id="space4">@2024 By Alphonse MUMBA</div>
+            <div class="footer__contact">@2024 By Alphonse MUMBA</div>
         </div>
     </footer>
 </body>
