@@ -82,14 +82,15 @@
   .about__list--index{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
+    height: 5rem;
   }
   .about__bouton {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: auto;
     border-radius: 20em; 
   }
   .about__bouton--orange{
@@ -202,12 +203,15 @@
   align-items: center;
   margin-top: 5%;
 }
+.container__mail, .container__name{
+  width: 50%;
+}
 .form__container--style{
   height: 2.5rem;
-  width: 20rem;
+  width: 90%;
 }
 .form__container--lastname, .form__container--subject {
-  margin-left: 20%;
+  margin-left: 5%;
 }
 .container__message{
   width: 35%;
@@ -351,7 +355,7 @@
 
 /*---------------------------------- Tablette -----------------------------------*/
 
-@media screen and (min-width: 429px) and (max-width: 884px){
+@media screen and (min-width: 429px) and (max-width: 1100px){
 
   /*--- Header tablette ---*/
 
@@ -412,20 +416,19 @@
   .form{
     width: 100%;
   }
-  .form__container--style{
-    height: 2.5rem;
-    width: 21rem;
-  }
-  .form__container{
-    width: 100%;
-  }
-  .form__container--lastname, .form__container--subject {
-    margin-left: 27%;
-  }
   .container__message{
     width: 45%;
   }
   .container__submit{
     margin-left: 11%;
+  }
+}
+
+/*-------------------------------- Grand Ecran ----------------------------------*/
+
+@media screen and (min-width: 1441px) {
+  .body{
+    width: 80%;
+    margin-left: 10%;
   }
 }
