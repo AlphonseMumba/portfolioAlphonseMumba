@@ -1,4 +1,4 @@
-                                    /* Style A Appliquer partout */ 
+  /************************************ Style A Appliquer partout ******************************/ 
 
   *{
   font-family: 'roboto', sans-serif;
@@ -45,9 +45,7 @@
     margin: 5%;
   }
 
-
-                                /* Style Index */
-
+  /********************************************* Style Index *************************************/
 
   .main--index{
     display: flex;
@@ -103,9 +101,7 @@
     background-color: rgb(6, 238, 238);
   }
 
-
-                              /* Style CV */
-
+  /********************************************** Style CV **************************************/
 
 .main--cv{
   display: block;
@@ -127,9 +123,7 @@
   font-size: 1.5rem;
 }
 
-
-                                /* Style Projets */
-
+  /******************************************** Style Projets **********************************/
 
   .main--projets{
     display: block;
@@ -166,9 +160,7 @@
     height: 30%;
   }
 
-
-                                  /*  Style Contact*/
-
+  /******************************************  Style Contact ***********************************/
 
 .main--contact{
   display: flex;
@@ -214,7 +206,7 @@
   margin-left: 5%;
 }
 .container__message{
-  width: 35%;
+  width: 48%;
 }
 .form__message--style{
   width: 95%;
@@ -222,12 +214,11 @@
 }
 .container__submit{
   background-color: orange;
-  height: 7rem;
-  width: 7rem;
-  margin-left: 15%;
+  height: 9rem;
+  width: 9rem;
+  margin-left: 12%;
   border-radius: 50%; 
 }
-
 
 /*********************************** Responsive **********************************/
 
@@ -323,17 +314,25 @@
     align-items: center;
     margin-top: 10%;
   }
+  .form__container--style{
+    width: 95%;
+  }
   .form__container--style, .form__container--message{
     margin-bottom: 5%;
   }
   .form__container--lastname, .form__container--subject {
     margin-left: 0%;
   }
+  .container__mail, .container__name {
+    width: 100%;
+  }
   .container__message{
-    width: 91%;
+    width: 100%;
   }
   .container__submit{
     margin-left: 35%;
+    height: 7rem;
+    width: 7rem;
   }
 
   /*--- Footer mobile ---*/
@@ -409,6 +408,10 @@
     margin-left: 5%;
     width: 90%;
   }
+  .contact{
+    text-align: center;
+    width: 100%;
+  }
   .contact__title, .contact__title, .contact__container, .contact__us{
     margin: 0%;
     margin-top: 7%;
@@ -417,10 +420,10 @@
     width: 100%;
   }
   .container__message{
-    width: 45%;
+    width: 48%;
   }
   .container__submit{
-    margin-left: 11%;
+    margin-left: 8%;
   }
 }
 
