@@ -79,21 +79,17 @@
   .about__container{
     line-height: 2rem;
   }
-  .about__list--index {
-    display: flex;
-  }
   .about__list--index{
     display: flex;
     justify-content: space-between;
-    width: 40%;
-
+    width: 50%;
   }
   .about__bouton {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
-    height: 90px;
+    width: 6rem;
+    height: 6rem;
     border-radius: 20em; 
   }
   .about__bouton--orange{
