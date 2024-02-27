@@ -95,7 +95,7 @@
     background-color: rgb(234, 134, 13);
   }
   .about__bouton--red{
-    background-color: rgb(175, 10, 10);
+    background-color: rgb(230, 42, 42);
   }
   .about__bouton--aqua{
     background-color: rgb(6, 238, 238);
@@ -285,6 +285,7 @@
   .section__about{
     flex-wrap: wrap-reverse;
     justify-content: center;
+    width: 100%;
   }
   .section__about--container{
     width: 100%;
